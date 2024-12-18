@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emisiones Globales</title>
+  
+    <style>
+      body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f9f0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            background-color: #f4f4f4;
+            padding: 0.5rem;
+            border-bottom: 2px solid #4CAF50;
+        }
+        nav a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+            flex: 1;
+        }
+        section h2 {
+            color: #2e7d32;
+            margin-bottom: 1rem;
+        }
+        form {
+            margin-bottom: 2rem;
+        }
+        select, button {
+            padding: 0.5rem;
+            font-size: 1rem;
+            margin-right: 0.5rem;
+        }
+        .chart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2rem auto;
+            max-width: 90%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emisiones Globales de Carbono</h1>
+    </header>
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/sector">Emisiones por Sector</a>
+        <a href="/region">Emisiones por Región</a>
+        <a href="/country">Emisiones por País</a>
+    </nav>
+    <main>
+        <section>
+            <h2>Gráfica de Emisiones Globales Totales</h2>
+            <img src="data:image/png;base64,{{ global_emissions_img }}" alt="Gráfica de Emisiones Globales">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Proyecto de Análisis de Emisiones</p>
+    </footer>
+</body>
+</html>
