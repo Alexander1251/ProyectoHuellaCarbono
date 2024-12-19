@@ -25,7 +25,7 @@ Este proyecto analiza datos históricos relacionados con el consumo de combustib
 
 ### **Imagen representativa**
 
-![Imagen Representativa](Este-Equipo/Documentos/SUSANA/IMAGEN.png)
+![Imagen Representativa](Imagenes/IMAGEN.png)
 ---
 
 ## **Arquitectura**
