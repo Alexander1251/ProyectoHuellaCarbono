@@ -24,8 +24,8 @@ Nuestro propósito es analizar cómo han evolucionado las emisiones de carbono a
 Este proyecto analiza datos históricos relacionados con el consumo de combustibles y las emisiones de carbono, permitiendo visualizar tendencias y estadísticas clave desde la década de 1970.
 
 ### **Imagen representativa**
-> _Pendiente de incluir: Una imagen con algunas de las  gráficos generados por el proyecto (ejemplo: tendencias de emisiones por año)._  
 
+![Imagen Representativa](Descargas/IMAGEN.png)
 ---
 
 ## **Arquitectura**
