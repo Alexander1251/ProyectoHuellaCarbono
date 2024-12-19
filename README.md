@@ -37,7 +37,9 @@ El proyecto utiliza un diseño modular que integra tres componentes principales:
 
 ### **Diagrama de arquitectura**
 Aqui se debe agregar un grafico que logre generar
----
+
+![Diagrama de Arquitectura](Diagrama-de-Arquitectura.png)
+
 
 ## **Proceso**
 
